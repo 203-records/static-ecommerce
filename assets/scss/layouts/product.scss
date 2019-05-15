@@ -22,7 +22,6 @@
     grid-area: name;
     font-size: 36px;
     text-align:center;
-    position:relative;
     display:inline-block;
     margin-top: -2.5em;
     padding-top: 2.5em;
@@ -30,7 +29,6 @@
 
   &__image {
     text-align:center;
-    position:relative;
     display:inline-block;
     grid-area: image;
     width: 100%;
@@ -44,7 +42,6 @@
     font-weight: 400;
     margin-bottom: 2.5em;
     text-align:center;
-    position:relative;
     display:inline-block;
   }
 
@@ -63,7 +60,6 @@
 
   &__button-container {
     text-align:center;
-    position:relative;
     display:inline-block;
     grid-area: button;
     margin-bottom:2.5em;
@@ -87,8 +83,9 @@
       grid-template-columns: 1fr 1fr 1fr;
 
       img {
+        right:50%;
+        left:50%;
         text-align:center;
-        position:relative;
         display:inline-block;
         grid-area: image;
         width: 100%;
@@ -108,8 +105,9 @@
     grid-template-columns: 1fr 1fr 1fr;
 
     img {
+      right:50%;
+      left:50%;
       text-align:center;
-      position:relative;
       display:inline-block;
       grid-area: image;
       width: 100%;
