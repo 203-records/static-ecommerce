@@ -1,8 +1,10 @@
 .footer {
-  height: 100px;
-  display: flex;
   justify-content: center;
   align-items: center;
+  height: 100px;
+  width: 110%;
+  transform: translate(-5%,0%);
+  display: flex;
   color: white;
   background: linear-gradient(90deg, #707070 0%, #474747 100%);
   text-transform: uppercase;
