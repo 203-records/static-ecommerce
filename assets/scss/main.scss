@@ -13,6 +13,9 @@
 @import "./layouts/product.scss";
 @import "./layouts/footer.scss";
 
+//Custom scss
+@import "./custom.scss";
+
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
