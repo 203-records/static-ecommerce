@@ -28,11 +28,12 @@ html, body {
 
 body {
   @include smallerThanDesktop {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   display: grid;
   grid-template-rows: auto 1fr auto;
+  background: #555;
 }
 
 main {
