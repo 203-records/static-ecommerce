@@ -87,9 +87,14 @@
       grid-template-columns: 1fr 1fr 1fr;
 
       img {
-        height: 300px;
+        text-align:center;
+        position:relative;
+        display:inline-block;
+        grid-area: image;
         width: 100%;
-        margin-bottom: 30px;
+        height: 50em;
+        object-fit: cover;
+        object-position: center;
       }
     }
   }
@@ -103,9 +108,14 @@
     grid-template-columns: 1fr 1fr 1fr;
 
     img {
-      height: 300px;
+      text-align:center;
+      position:relative;
+      display:inline-block;
+      grid-area: image;
       width: 100%;
-      margin-bottom: 30px;
+      height: 50em;
+      object-fit: cover;
+      object-position: center;
     }
   }
 }
