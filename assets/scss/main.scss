@@ -24,10 +24,14 @@ html, body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  background-color: $color-;
+  background-color: $color-black;
 }
 
 body {
+  @include smallerThanDesktop {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
