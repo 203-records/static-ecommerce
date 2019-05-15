@@ -17,14 +17,14 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #eee;
+  color: $color-off_white;
 }
 
 html, body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  background-color: #555;
+  background-color: $color-off_black;
 }
 
 body {
