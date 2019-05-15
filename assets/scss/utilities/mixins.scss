@@ -1,11 +1,11 @@
 @mixin smallerThanDesktop {
-  @media (width: 95%) {
+  @media (max-width: 95%) {
       @content;
   }
 }
 
 @mixin mobile {
-  @media (width: 95%) {
+  @media (max-width: 95%) {
       @content;
   }
 }
