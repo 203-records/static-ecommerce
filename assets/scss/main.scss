@@ -25,6 +25,7 @@
 }
 
 html, body {
+  overflow-x: hidden;
   -moz-transform: scale(0.99, 0.99); /* Moz-browsers */
     zoom: 0.99; /* Other non-webkit browsers */
     zoom: 99%; /* Webkit browsers */
