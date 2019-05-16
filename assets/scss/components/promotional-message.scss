@@ -16,7 +16,6 @@
 
   h2 {
     font-size: 100px;
-    @include mobile { font-size: 75px; }
     margin: 0;
 
     background: linear-gradient(90deg, #FFB890 0%, #F75D5D 100%);
