@@ -1,7 +1,5 @@
 .products {
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .product {
@@ -29,6 +27,8 @@
 
   &__image {
     text-align:center;
+    align-items: center;
+    justify-content: center;
     display:inline-block;
     grid-area: image;
     width: 100%;
