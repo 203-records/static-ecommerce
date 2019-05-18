@@ -42,8 +42,12 @@
     grid-area: description;
     font-weight: 400;
     margin-bottom: 2.5em;
+    align-items: center;
+    justify-content: center;
     text-align:center;
     display:inline-block;
+    max-width: 75%;
+    margin-left: 12.5%;
   }
 
   &__price {
