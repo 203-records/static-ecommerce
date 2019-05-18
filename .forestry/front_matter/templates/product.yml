@@ -2,6 +2,9 @@
 label: product
 hide_body: true
 fields:
+- type: datetime
+  name: date
+  label: date
 - type: text
   name: id
   label: id
@@ -17,12 +20,14 @@ fields:
 - type: file
   name: image
   label: image
+- name: file_guid
+  type: text
+  config:
+    required: false
+  label: file_guid
 - type: text
   name: product_url
   label: product_url
-- type: datetime
-  name: date
-  label: date
 - type: text
   name: url
   label: url
