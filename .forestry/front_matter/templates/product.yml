@@ -26,5 +26,3 @@ fields:
 - type: text
   name: url
   label: url
-pages:
-- content/products/kitten.md
