@@ -1,5 +1,7 @@
 .products {
   max-width: 100%;
+  max-height: 99%;
+  margin-bottom: 2.5em;
 }
 
 .product {
@@ -8,15 +10,18 @@
   text-align:center;
   display: grid;
   grid-template-areas:
+  "image        image        image"
   "name         name         name"
   "description  description  description"
-  ".            button       ."
-  "image        image        image";
+  ".            button       .";
   grid-template-columns: 1fr 1fr 1fr;
-  margin-bottom: 5em;
+  margin-bottom: 15%;
+  margin-top: -27em;
   grid-column-gap: 5em;
+  position: relative;
 
   &__name {
+    position: relative;
     grid-area: name;
     font-size: 36px;
     text-align:center;
@@ -24,18 +29,22 @@
     margin-top: -2.5em;
     padding-top: 2.5em;
     color: $color-offwhite !important;
+    z-index: 1;
   }
 
   &__image {
+    position: relative;
     text-align:center;
     align-items: center;
     justify-content: center;
-    display:inline-block;
     grid-area: image;
     width: 100%;
+    top: 87.5%;
     height: 33em;
+    opacity: 0.2;
     object-fit: cover;
     object-position: center;
+    z-index: -1;
   }
 
   &__description {
@@ -48,6 +57,7 @@
     display:inline-block;
     width: 75%;
     margin-left: 12.5%;
+    z-index: 1;
   }
 
   &__price {
@@ -56,12 +66,14 @@
     display:inline-block;
     margin-bottom: 0.5em;
     color: $color-offwhite !important;
+    z-index: 1;
   }
 
   .buy-button {
     text-align: center;
     text-align:center;
     display:inline-block;
+    z-index: 1;
   }
 
   &__button-container {
@@ -70,14 +82,15 @@
     grid-area: button;
     margin-bottom:2.5em;
     right: 5%;
+    z-index: 1;
   }
 
   &:nth-of-type(odd) {
     grid-template-areas:
+    "image        image        image"
     "name         name         name"
     "description  description  description"
-    ".            button       ."
-    "image        image        image";
+    ".            button       .";
     grid-template-columns: 1fr 1fr 1fr;
 
 
