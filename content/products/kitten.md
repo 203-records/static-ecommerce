@@ -1,9 +1,9 @@
 +++
 date = ""
-description = "Furry"
-id = "KITTEN"
-image = "/uploads/kitten-report.jpg"
-name = "Kitten"
+description = "Chiiiiiiiill. Light up a blunt, enjoy low fidelity transients and samples full of Izotope Vinyl's dust. This is for all those hipster manbun ass niggas who don't like their music clean - it must be retro sounding and pressed on vinyl three times before being rerecorded back into the DAW."
+id = "LOFI_DRUMPACK"
+image = "/uploads/vinyl-i13452.jpg"
+name = "Lo-Fi Drumpack"
 price = 13.37
 product_url = "https://www.203.media/"
 url = ""
