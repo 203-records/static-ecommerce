@@ -6,7 +6,7 @@ image = "/uploads/africa.jpg"
 name = "Africa Drumpack"
 price = "00.39"
 product_url = "https://www.203.media/"
-file-guid = "06cffb69-0014-4e41-b6f3-db8640b29b16"
+file_guid = "06cffb69-0014-4e41-b6f3-db8640b29b16"
 title = ""
 url = ""
 
