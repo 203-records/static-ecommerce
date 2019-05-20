@@ -1,7 +1,7 @@
 [{
   "id": "",
   "name": "",
-  "price": 0,
+  "price": 1,
   "image": "",
   "description": "",
   "url": ""
@@ -9,7 +9,7 @@
   "id": "",
   "name": "",
   "description": "",
-  "price": 0,
+  "price": 1,
   "image": "",
   "url": ""
 }]
