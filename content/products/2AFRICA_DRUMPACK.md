@@ -4,9 +4,9 @@ description = "Hello, I'm Charles Daniels. For years we've been taking you to vi
 id = "AFRICA_DRUMPACK"
 image = "/uploads/africa.jpg"
 name = "Africa Drumpack"
-price = "1.39"
+price = 1.39
+file_guid = 06cffb69-0014-4e41-b6f3-db8640b29b16
 product_url = "https://www.203.media/"
-file_guid = "06cffb69-0014-4e41-b6f3-db8640b29b16"
 title = ""
 url = ""
 
