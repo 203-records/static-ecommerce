@@ -5,7 +5,6 @@ id = "LOFI_DRUMPACK"
 image = "/uploads/vinyl.jpg"
 name = "Lo-Fi Drumpack"
 price = "13.37"
-file_guid = "57142427-e7d3-4d37-b974-01ea00c0f740"
 product_url = "https://www.203.media/"
 url = ""
 
